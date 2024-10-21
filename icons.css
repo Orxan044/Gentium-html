@@ -1,0 +1,72 @@
+
+.icon {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    color: white;
+}
+
+
+.icon-strategy{
+    background-image: url(icons/strategy.png);
+    margin-left: -8px;
+}
+
+.icon-browser{
+    background-image: url(icons/browser.png);
+    width: 65px;
+    height: 65px;
+    margin-left: -25px;
+}
+
+.icon-presentation{
+    background-image: url(icons/presentation.png);
+    margin-left: -13px;
+}
+
+.icon-clipboard{
+    background-image: url(icons/clipboard.png);
+    margin-left: -15px;
+}
+
+.icon-tools{
+    background-image: url(icons/tools.png);
+    margin-left: -15px;
+}
+
+.icon-chat{
+    width: 60px;
+    height: 60px;
+    background-image: url(icons/chat.png);
+    margin-left: -24px;
+}
+
+.icon-target{
+    height: 60px;
+    width: 60px;
+    background-image: url(icons/target.png);
+    margin-left: -10px;
+}
+
+.icon-lightbulb{
+    height: 50px;
+    width: 50px;
+    background-image: url(icons/lightbulb.png);
+    margin-left: -6px;
+}
+
+.icon-search{
+    height: 50px;
+    width: 50px;
+    background-image: url(icons/search.png);
+    margin-left: -10px;
+}
+
+
+.icon-arrow-right{
+    background-image: url(icons/arrow-right.png);
+    width: 25px;
+    height: 25px;
+}
