@@ -631,7 +631,7 @@
     width: 1.6px;     
     height: 60px;       
     background-color: red; 
-    border: none;     
+    border: 0;     
     margin-top: 90px;
 }
 
@@ -1219,13 +1219,80 @@
     font-size: 20px;
     line-height: 27px;
     font-family: "Bebas+Neue", serif;
+    transition: color 0.3s ease;
+}
+
+.numbers-text:hover p , .numbers-text:hover span{
+    color: #e9204f;
+
+}
+
+.contact-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    background-color: #000000;
+}
+
+.endInfo-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-end p{
+    color: #747474;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; 
+    line-height: 24px;
+    display: flex;
+}
+
+.contact-end p a{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 
+.Policys {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-left: 558px;
+}
 
+.Policys a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    gap: 3px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+}
 
+.Policys a hr {
+    background-color: #e9204f;
+    outline: none;
+    height: 1px;
+    border: 0;
+    outline-offset: 0px;
+    width: 50%; 
+    opacity: 0; 
+    transition: ease-in-out 300ms;
+}
 
-.contact-end{
-    height: 85px;
-    background-color: #000000;
+.Policys a:hover {
+    color: #e9204f;
+    transition: ease-in-out 200ms;
+}
+
+.Policys a:hover hr {
+    opacity: 1;
+    width: 50%;
+    transition: ease-in 200ms;
+
 }
