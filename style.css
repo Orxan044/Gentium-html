@@ -170,7 +170,6 @@
 
 .card-one a{
     background-color: #e9204f;
-    border: solid #e9204f 2px;
 }
 
 .card-texts{
@@ -196,6 +195,7 @@
 }
 
 .card a:hover{
+    
     background-color: #e9204f;
 }
 
@@ -927,6 +927,13 @@
     flex-direction: column;
 }
 
+.Blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .blog-one{
     display: flex;
     align-items: center;
@@ -967,6 +974,7 @@
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
+    margin-top: 80px;
 }
   
 .blog-box {
@@ -1067,6 +1075,157 @@
     opacity: 1;
 }
 
-  
+/* .around-line3{
+    width: 1.6px;     
+    height: 60px;       
+    background-color: red; 
+    border: none;     
+    margin-top: 90px;
+    position: relative;
+    margin: 0 auto;    
+    transform: translateY(0%);
+} */
 
-  
+
+.Contact{
+    height: 561.2px;
+    margin-top: 100px;
+}
+.contact-talk {
+    height: 339.2px;
+    background-color: #1b1b1b;
+}
+
+.talk-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Öğeleri eşit mesafede hizalamak için */
+    height: 59.2px;
+    padding: 140px 50px; /* Etrafında biraz boşluk bırakıyoruz */
+    max-width: 1200px; /* Genişliği sabit tutarak zoomda hizalamanın bozulmasını önleriz */
+    margin: 0 auto; /* Ortalamak için */
+}
+
+.talk-one .social-link {
+    text-decoration: none;
+    display: flex;
+    gap: 7px;
+}
+
+.talk-one .social-link a {
+    background-color: transparent;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.talk-one .social-link i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: 2px solid #e9204f;
+    font-size: 20px;
+    border-radius: 50%; 
+    width: 48px;
+    height: 48px;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+
+.talk-one .social-link i:hover {
+    color: #e9204f;
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+.talk-one h6 {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: 800;
+    letter-spacing: -0.04px;
+    line-height: 70px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.talk-one .MakeEnquiry a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 59.2px;
+    width: 214.26px;
+    font-weight: 900;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+    border: solid #e9204f 2px;
+    position: relative;
+    z-index: 999;
+}
+
+.talk-one .MakeEnquiry a:hover::after {
+  width: 100%;
+}
+
+.talk-one .MakeEnquiry a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  -webkit-transition: .4s;
+  transition: .3s;
+  z-index: -999;
+  background-color: #e9204f;
+}
+
+.contact-numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 137px;
+    background-color: #161616;
+}
+
+.numbers-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative; 
+    text-align: center; 
+    height: 100px;
+    margin: 210px;
+    
+}
+
+.numbers-text p{
+    color: #FFFFFF;
+    font-size: 22px;
+    letter-spacing: -0.8px;
+    line-height: 30px;
+    font-weight: 800;
+    font-family: 'Outfit', sans-serif;
+}
+
+.numbers-text span{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: "Bebas+Neue", serif;
+}
+
+
+
+
+
+.contact-end{
+    height: 85px;
+    background-color: #000000;
+}
