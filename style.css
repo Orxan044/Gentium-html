@@ -834,9 +834,9 @@ body{
 }
 
 .client-line-two{
-    border-top: 2.4px solid #e3e3e3;
+    border: 1.8px solid #e3e3e3;
     width: 46px;
-    color: #e3e3e3;
+    color: #747474;
     margin-top: 60px;
 }
 
@@ -991,7 +991,7 @@ body{
 }
   
 .blog-box:hover .blog-box-text i{
-    padding-top: 45px;
+    padding-top: 75px;
     opacity: 1;
 }
 
@@ -1332,8 +1332,12 @@ body{
         margin-top: 20px;
     }
 
+    .Home-First ul li a{
+        font-size: 22px;
+    }
+
     .Home-First .Home-Name {
-        font-size: 30px;
+        font-size: 45px;
     }
 
     .Home-Second {
@@ -1356,7 +1360,6 @@ body{
 
     .Home-Third {
         flex-direction: column;
-        gap: 15px;
     }
 
     .Home-Third .card-texts p.name {
@@ -1385,6 +1388,10 @@ body{
         width: 380px;
         height: 104px;
         background-color: #f3f3f3;
+    }
+
+    .around-line{
+        margin-left: 0px;
     }
 }
 
@@ -1547,14 +1554,26 @@ body{
         padding: 0 20px; 
     }
 
+    .client-line-two {
+        margin-top: 100px;
+    }
+
     .client-info-box span {
         width: 100%; 
     }
 
+    .client-line-three{
+        width: 90%;
+    }
+
+    .logos{
+        flex-direction: column;
+    }
+
     .logos img {
-        width: 50px;
+        width: 150px;
         height: auto; 
-        margin: 10px; 
+        margin: 20px; 
     }
 }
 
